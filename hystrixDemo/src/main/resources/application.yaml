@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: hystrix.stream, health, info, metrics
+
+info:
+  app:
+    name: Hystrix Demo Application
+    description: First circuit breaker application also showing dashboard
+    version: 0.0.0.1-SNAPSHOT
+
+spring:
+  application:
+    name: Hystrix Demo Application
