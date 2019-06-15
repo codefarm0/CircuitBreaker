@@ -7,6 +7,9 @@ management:
       base-path: /
       exposure:
         include: hystrix.stream, health, info, metrics
+  endpoint:
+    health:
+      show-details: always
 
 info:
   app:
