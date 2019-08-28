@@ -1,0 +1,20 @@
+server:
+  port: 8085
+
+hystrix:
+  command:
+    ordermanagement:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+      circuitBreaker:
+        errorThresholdPercentage: 20
+        sleepWindowInMilliseconds: 5000
+        requestVolumeThreshold: 10
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 40000
+  threadpool:
+    default:
+      coreSize: 10
