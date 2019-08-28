@@ -1,13 +1,12 @@
-# Follow steps below to start the hystrix application
-* Get the project in your local machine by cloning or downloading it
-* Oen command prompt and navigate to /hystrixDashboardDemo directory
-* Execute the below command
+## What is circuit breaker design pattern all about ??
 
-        gradlew bootrun
-     
-* If everything fine you would see the application started on port 8082
-* Now navigate to below url to open the dashboard
+Watch the video for complete understanding - https://youtu.be/bRbE2l4V_IM
 
-     http://localhost:8082/hystrix
-    
-* Now enter the stream url in the specified location on dashboard and see monitoring of your application on the hystrix dashboard
+## What is netflix hystrix and how to use it in microservices??
+TBD
+
+## What is resilince4j??
+TBD
+
+## What is spring retry??
+TBD
