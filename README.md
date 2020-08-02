@@ -3,10 +3,15 @@
 Watch the video for complete understanding - https://youtu.be/bRbE2l4V_IM
 
 ## What is netflix hystrix and how to use it in microservices??
-TBD
+
+[Netflix Hystrix Circuit Breaker](https://youtu.be/5UwRGGhEQcA)
+
+## Hystrix dashboard in microservices
+
+[Netflix Hystrix Dashboard](https://youtu.be/zxOfDbN9QZc)
 
 ## What is resilince4j??
-TBD
 
-## What is spring retry??
-TBD
+[Complete listing here](https://github.com/greenlearner01/resilience4j)
+
+
